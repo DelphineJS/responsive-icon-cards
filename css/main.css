@@ -54,6 +54,7 @@ ul {
 .card-body h2 {
   font-weight: normal;
   margin: 0;
+  display: inline-block;
 }
 
 .card-body p {
@@ -66,5 +67,65 @@ ul {
     font-size: 100%;
     line-height: 1.3;
   }
+
+  .card-img {
+    display: inline-block;
+    margin: 0;
+    margin-left: 0;
+    padding: 0;
+    max-width: 25%;
+  }
+
+  .card-body {
+    max-width: 70%;
+    display: inline-block;
+  }
+
+  .card-body p {
+    margin: 0 0 1.3rem;
+  }
+
+  .card {
+    padding: 0;
+  }
+
+  img {
+    margin: 0 .75em;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .card {
+    width: 32%;
+    margin: 0;
+    max-height: 15em;
+  }
+
+  .card-body,
+  .card-img {
+    display: block;
+  }
+
+  p {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+@media only screen and (min-width: 90em) {
 
 }
