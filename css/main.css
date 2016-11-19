@@ -126,6 +126,16 @@ ul {
     line-height: 1.5;
   }
 
+  .card-img {
+    text-align: center;
+  }
+
+}
+
 @media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
 
 }
